@@ -20,6 +20,18 @@
     "featured": true
 }
 ```
+Step1 - Setting up the EC2 instances for Frontend & Backend
+Create the 2 EC2 instances (instance type - t2.micro), One is for the frontend and the other is for the backend.
+
+Do the configuration of each instances at the time of creation using below script
+
+#!/bin/bash 
+sudo apt update
+sudo bash
+curl -s https://deb.nodesource.com/setup_18.x | sudo bash
+sudo apt install nodejs -y
+sudo cd /home/ubuntu/
+sudo git clone https://github.com/UnpredictablePrashant/TravelMemory
 
 
 For frontend, you need to create `.env` file and put the following content (remember to change it based on your requirements):
