@@ -1,22 +1,16 @@
-# Travel Memory
+Travel Memory Application on AWS
+Objective:
+Set up the backend running on Node.js.
 
-`.env` file to work with the backend after creating a database in mongodb: 
+Configure the front end designed with React.
 
-```
-MONGO_URI='ENTER_YOUR_URL'
-PORT=3001
-```
+Ensure efficient communication between the front end and back end.
 
-Data format to be added: 
+Deploy the full application on an EC2 instance.
 
-```json
-{
-    "tripName": "Incredible India",
-    "startDateOfJourney": "19-03-2022",
-    "endDateOfJourney": "27-03-2022",
-    "nameOfHotels":"Hotel Namaste, Backpackers Club",
-    "placesVisited":"Delhi, Kolkata, Chennai, Mumbai",
-    "totalCost": 800000,
+Facilitate load balancing by creating multiple instances of the application.
+
+Connect a custom domain through Cloudflare.
     "tripType": "leisure",
     "experience": "Lorem Ipsum, Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum, ",
     "image": "https://t3.ftcdn.net/jpg/03/04/85/26/360_F_304852693_nSOn9KvUgafgvZ6wM0CNaULYUa7xXBkA.jpg",
