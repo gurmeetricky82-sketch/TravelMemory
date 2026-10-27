@@ -1,14 +1,18 @@
-Travel Memory Application on AWS
-Objective:
-Set up the backend running on Node.js.
+# Travel Memory Application on AWS
 
-Configure the front end designed with React.
+### Objective:
 
-Ensure efficient communication between the front end and back end.
+ - Set up the backend running on Node.js.
 
-Deploy the full application on an EC2 instance.
+ - Configure the front end designed with React.
 
-Facilitate load balancing by creating multiple instances of the application.
+ - Ensure efficient communication between the front end and back end.
+
+ - Deploy the full application on an EC2 instance.
+
+ - Facilitate load balancing by creating multiple instances of the application.
+
+ - Connect a custom domain through Cloudflare.
 
 Connect a custom domain through Cloudflare.
     "tripType": "leisure",
