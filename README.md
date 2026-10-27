@@ -14,10 +14,8 @@
 
  - Connect a custom domain through Cloudflare.
 
-Connect a custom domain through Cloudflare.
-    "tripType": "leisure",
-    "experience": "Lorem Ipsum, Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum,Lorem Ipsum, ",
-    "image": "https://t3.ftcdn.net/jpg/03/04/85/26/360_F_304852693_nSOn9KvUgafgvZ6wM0CNaULYUa7xXBkA.jpg",
+<img width="1521" height="744" alt="image" src="https://github.com/user-attachments/assets/2212c39c-eb0e-4219-ad28-f7bc257a3ac0" />
+
     "shortDescription":"India is a wonderful country with rich culture and good people.",
     "featured": true
 }
