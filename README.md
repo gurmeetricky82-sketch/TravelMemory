@@ -91,6 +91,7 @@ The backend application at port 3000
 We are doing the reverse proxy using Nginx
 
 sudo apt install nginx
+
 sudo systemctl status nginx 
 
 <img width="2328" height="790" alt="image" src="https://github.com/user-attachments/assets/75ff4fac-6ee0-4f41-9954-39a8336d1057" />
@@ -101,6 +102,7 @@ sudo systemctl status nginx
 Now for the reverse proxy
 
 sudo unlink /etc/nginx/sites-enabled/default
+
 cd /etc/nginx/sites-available/
 sudo nano custom_server.conf
 server { 
@@ -112,6 +114,7 @@ proxy_pass http://my_server;
 ln -s /etc/nginx/sites-available/custom_server.conf /etc/nginx/sites-enabled/custom_server.conf
 
 sudo service nginx configtest
+
 sudo service nginx restart
 
 <img width="2666" height="460" alt="image" src="https://github.com/user-attachments/assets/d7d35f3d-ea9d-4772-820b-6c34e77d60d5" />
