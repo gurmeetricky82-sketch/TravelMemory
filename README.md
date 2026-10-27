@@ -104,7 +104,9 @@ Now for the reverse proxy
 sudo unlink /etc/nginx/sites-enabled/default
 
 cd /etc/nginx/sites-available/
+
 sudo nano custom_server.conf
+
 server { 
 listen 80;
 location / {
@@ -118,5 +120,53 @@ sudo service nginx configtest
 sudo service nginx restart
 
 <img width="2666" height="460" alt="image" src="https://github.com/user-attachments/assets/d7d35f3d-ea9d-4772-820b-6c34e77d60d5" />
+
+Now we can access the backend at port 80 because of the reverse proxy
+
+<img width="1364" height="290" alt="image" src="https://github.com/user-attachments/assets/eea2df32-eadb-4b52-8e44-705a7fef88a4" />
+
+## Frontend Reverse proxy configuration
+
+Follow the same steps as we did in Backend reverse configuration After doing that frontend will be running at port 80
+
+<img width="1910" height="1204" alt="image" src="https://github.com/user-attachments/assets/2cf69fcc-4cf1-4e69-9a6e-344db4f6a146" />
+
+## Step4 - Scaling the Appliacation
+
+Create multiple instances of both the frontend and backend servers.
+
+Add these instances to a load balancer to ensure efficient distribution of incoming traffic.
+
+Launching the extra instances to distribute the load using taking snapshots of frontend & backend both.
+
+<img width="2242" height="686" alt="image" src="https://github.com/user-attachments/assets/0b5ab33c-3dae-429c-b19b-98ef50b91c3c" />
+<img width="2768" height="1212" alt="image" src="https://github.com/user-attachments/assets/8349ab4c-c92b-41d3-a03d-503823e6a27a" />
+
+You can find the snapshots in AMIs (Amazon Machine Images)
+<img width="2748" height="530" alt="image" src="https://github.com/user-attachments/assets/0fde0fd7-1c94-44f3-8119-50131df3cdcf" />
+<img width="2782" height="1082" alt="image" src="https://github.com/user-attachments/assets/6a3e9d68-a89b-4c14-8d09-7b1a4ea50ed6" />
+
+Then will be launching the instance using the AMIs we have saved earlier.
+<img width="2832" height="1228" alt="image" src="https://github.com/user-attachments/assets/6e8a59c7-90f0-428e-b222-72f1679651f3" />
+
+## Frontend
+<img width="2766" height="1210" alt="image" src="https://github.com/user-attachments/assets/d47ba734-fdc4-443a-b26b-2ea2a235f425" />
+
+<img width="2136" height="1166" alt="image" src="https://github.com/user-attachments/assets/ec350cf0-a767-4826-b1aa-224d8feeb529" />
+<img width="2280" height="1132" alt="image" src="https://github.com/user-attachments/assets/47755cfd-7e26-414e-b5af-6fb669e7b76c" />
+
+We are able to see the same data and configuration.
+<img width="1560" height="1146" alt="image" src="https://github.com/user-attachments/assets/30d79d2d-1b70-44ea-9c54-1178a46ccf5c" />
+<img width="1658" height="322" alt="image" src="https://github.com/user-attachments/assets/df46544f-a1e3-4b83-81cd-1a77f058d008" />
+
+For Load balancing we need to create Target Groups to collect the instances of frontend ( i.e adarsh_mern_frontend & adarsh_mern_frontend2) and backend (adarsh_mern_backend & adarsh_mern_backend2)
+
+
+
+
+
+
+
+
 
 
