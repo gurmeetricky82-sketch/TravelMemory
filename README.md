@@ -161,7 +161,17 @@ We are able to see the same data and configuration.
 
 For Load balancing we need to create Target Groups to collect the instances of frontend ( i.e adarsh_mern_frontend & adarsh_mern_frontend2) and backend (adarsh_mern_backend & adarsh_mern_backend2)
 
+EC2 > Target groups > Create target group
 
+<img width="2368" height="1188" alt="image" src="https://github.com/user-attachments/assets/dc4ccc9c-80b3-4e6f-843d-c2fa17163712" />
+<img width="2394" height="1188" alt="image" src="https://github.com/user-attachments/assets/b037d0c0-7c1c-4b46-942e-9dd599c4c3af" />
+<img width="2756" height="386" alt="image" src="https://github.com/user-attachments/assets/894559de-cfa9-4f4f-a0bf-aee89d1937f2" />
+
+For creating the load balancer based on target groups
+
+EC2 > Load balancers > Create Application Load Balancer
+
+<img width="2368" height="1234" alt="image" src="https://github.com/user-attachments/assets/16bfd7fb-5007-45ed-997c-5a8c54b74b74" />
 
 
 
