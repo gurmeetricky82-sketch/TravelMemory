@@ -182,6 +182,14 @@ Adding the Target group we have created for the backend instances.
 
 Same for the Frontend Loadbalancer
 
+<img width="2646" height="1116" alt="image" src="https://github.com/user-attachments/assets/63732c29-992f-4093-86d5-7a64aba1642c" />
+<img width="2600" height="1226" alt="image" src="https://github.com/user-attachments/assets/4e482e24-6f52-47aa-9d07-471602b12ef0" />
+<img width="2620" height="1218" alt="image" src="https://github.com/user-attachments/assets/0f6cf0af-926c-4ac2-9386-915ff04256b2" />
+
+Both the Load Balancers are active.
+
+
+
 
 
 
