@@ -173,6 +173,14 @@ EC2 > Load balancers > Create Application Load Balancer
 
 <img width="2368" height="1234" alt="image" src="https://github.com/user-attachments/assets/16bfd7fb-5007-45ed-997c-5a8c54b74b74" />
 
+balancer is mapped to multi AZs
+<img width="2140" height="730" alt="image" src="https://github.com/user-attachments/assets/b8431ceb-bfcc-45e4-a787-85435eec918b" />
+
+Adding the Target group we have created for the backend instances.
+
+<img width="2362" height="574" alt="image" src="https://github.com/user-attachments/assets/5f122445-8873-48fd-844a-af3c349be38f" />
+
+Same for the Frontend Loadbalancer
 
 
 
