@@ -189,7 +189,10 @@ Same for the Frontend Loadbalancer
 Both the Load Balancers are active.
 <img width="2426" height="428" alt="image" src="https://github.com/user-attachments/assets/d49f3526-390f-4c86-818e-744d40629c42" />
 
-
+## Step5 - Scaling the Appliacation
+ 
+<img width="1438" height="1292" alt="image" src="https://github.com/user-attachments/assets/1f5de8dc-fc49-48a4-b27c-0296cd6cb24c" />
+<img width="1646" height="1324" alt="image" src="https://github.com/user-attachments/assets/6de78619-339c-4b78-b151-7748d50e44c7" />
 
 
 
