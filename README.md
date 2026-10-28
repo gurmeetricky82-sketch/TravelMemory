@@ -187,6 +187,7 @@ Same for the Frontend Loadbalancer
 <img width="2620" height="1218" alt="image" src="https://github.com/user-attachments/assets/0f6cf0af-926c-4ac2-9386-915ff04256b2" />
 
 Both the Load Balancers are active.
+<img width="2426" height="428" alt="image" src="https://github.com/user-attachments/assets/d49f3526-390f-4c86-818e-744d40629c42" />
 
 
 
